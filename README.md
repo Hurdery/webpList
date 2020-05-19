@@ -12,7 +12,7 @@
 
 ## 预览
 
-![单图&列表](https://github.com/Hurdery/webpList/cover/pic.gif)
+![单图&列表](https://github.com/Hurdery/webpList/blob/master/cover/pic.gif)
 
 ## 使用
 1. 项目依赖谷歌开源库libwebp，需cocoapods导入，国外的库不会装的自行上谷歌百度一下
