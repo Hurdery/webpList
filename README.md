@@ -1,7 +1,6 @@
 # webpList
 
-[![](https://img.shields.io/badge/language-Objective--C-f48041.svg?style=flat)]
-(https://www.apple.com/)&nbsp;
+![](https://img.shields.io/badge/language-Objective--C-f48041.svg?style=flat)
 
 基于谷歌开源框架libwebp实现一般效果的webP图片格式列表播放，为啥说一般，因为水平有限，无法做到完美，
 代码又写的太烂，故部分代码暂不开源，暂时只抛出使用接口，可实现一般网图或者webP格式的加载，使用过程中，如遇什么问题，
