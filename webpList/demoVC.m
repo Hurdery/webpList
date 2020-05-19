@@ -7,8 +7,13 @@
 //
 
 #import "demoVC.h"
+#import "webpL.framework/Headers/MDWebImageView.h"
+#import "gifListVC.h"
 
 @interface demoVC ()
+
+@property (weak, nonatomic) IBOutlet MDWebImageView *mdImage;
+@property (weak, nonatomic) IBOutlet MDWebImageView *mdImage1;
 
 @end
 
@@ -16,17 +21,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    [self.mdImage md_setCommonImageWithURL:[NSURL URLWithString:@"http://www.downxia.com/uploadfiles/2017/0516/20170516022418394.jpg"] completed:^(UIImage * _Nullable image, NSError * _Nullable error) {
+    self.mdImage.image = image;
+    }];
+
+    [self.mdImage1 md_setWebPImageWithURL:[NSURL URLWithString:@"https://phantom-prod-oss.oss-cn-shanghai.aliyuncs.com/phantom/ugc/webp/PRODDT200410ABRU4YNPI.webp"] progress:^(CGFloat progress) {
+     }  completed:^(UIImage * _Nullable image, NSError * _Nullable error) {
+         NSLog(@"completed===%@",image);
+         [self.mdImage1 setImage: image];
+    }];
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)qinreAction:(id)sender {
+    
+      gifListVC *vc = [gifListVC new];
+      vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
+      [self presentViewController:vc animated:YES completion:nil];
 }
-*/
 
 @end

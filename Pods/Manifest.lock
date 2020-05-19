@@ -1,0 +1,24 @@
+PODS:
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+
+DEPENDENCIES:
+  - libwebp
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - libwebp
+
+SPEC CHECKSUMS:
+  libwebp: 9c174486ec18a564cf0ecea2adcc85d10968ff98
+
+PODFILE CHECKSUM: 45453cd6a2bbcf1fb6fc93376b7e3818577002fb
+
+COCOAPODS: 1.9.1

@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FpsLabel : UILabel
-
++ (void)setupOnView:(UIView *)view;
+- (void)start;
 @end
 
 NS_ASSUME_NONNULL_END

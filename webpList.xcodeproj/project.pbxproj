@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		654B977A918C9FA20B46CD95 /* libPods-webpList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B01622437E23DE165965D4 /* libPods-webpList.a */; };
+		80034E6C246BEDE400A7A5C4 /* gifImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80034E6B246BEDE400A7A5C4 /* gifImageCollectionViewCell.m */; };
+		80034E88246BF29E00A7A5C4 /* webpL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80034E87246BF29E00A7A5C4 /* webpL.framework */; };
 		801BBFBA246AA213002F8158 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BBFB9246AA213002F8158 /* AppDelegate.m */; };
 		801BBFBD246AA213002F8158 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BBFBC246AA213002F8158 /* SceneDelegate.m */; };
 		801BBFC0246AA213002F8158 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BBFBF246AA213002F8158 /* ViewController.m */; };
@@ -14,9 +17,18 @@
 		801BBFC5246AA216002F8158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801BBFC4246AA216002F8158 /* Assets.xcassets */; };
 		801BBFC8246AA216002F8158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801BBFC6246AA216002F8158 /* LaunchScreen.storyboard */; };
 		801BBFCB246AA216002F8158 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BBFCA246AA216002F8158 /* main.m */; };
+		801BC04B246ACD53002F8158 /* liblibwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801BC04A246ACD53002F8158 /* liblibwebp.a */; };
+		803EE913246BC031009BD8D7 /* gifListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 803EE912246BC031009BD8D7 /* gifListVC.m */; };
+		803EE919246BC80D009BD8D7 /* demoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 803EE917246BC80D009BD8D7 /* demoVC.m */; };
+		803EE91A246BC80D009BD8D7 /* demoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803EE918246BC80D009BD8D7 /* demoVC.xib */; };
+		80E8BCAD2473B93900635E52 /* FpsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E8BCAC2473B93900635E52 /* FpsLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70998D67F8DEC93B383726DF /* Pods-webpList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webpList.debug.xcconfig"; path = "Target Support Files/Pods-webpList/Pods-webpList.debug.xcconfig"; sourceTree = "<group>"; };
+		80034E6A246BEDE400A7A5C4 /* gifImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gifImageCollectionViewCell.h; sourceTree = "<group>"; };
+		80034E6B246BEDE400A7A5C4 /* gifImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gifImageCollectionViewCell.m; sourceTree = "<group>"; };
+		80034E87246BF29E00A7A5C4 /* webpL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = webpL.framework; sourceTree = "<group>"; };
 		801BBFB5246AA213002F8158 /* webpList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webpList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		801BBFB8246AA213002F8158 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		801BBFB9246AA213002F8158 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +41,16 @@
 		801BBFC7246AA216002F8158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		801BBFC9246AA216002F8158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		801BBFCA246AA216002F8158 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		801BC04A246ACD53002F8158 /* liblibwebp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibwebp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		803EE911246BC031009BD8D7 /* gifListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gifListVC.h; sourceTree = "<group>"; };
+		803EE912246BC031009BD8D7 /* gifListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gifListVC.m; sourceTree = "<group>"; };
+		803EE916246BC80D009BD8D7 /* demoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demoVC.h; sourceTree = "<group>"; };
+		803EE917246BC80D009BD8D7 /* demoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoVC.m; sourceTree = "<group>"; };
+		803EE918246BC80D009BD8D7 /* demoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = demoVC.xib; sourceTree = "<group>"; };
+		80E8BCAB2473B93900635E52 /* FpsLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FpsLabel.h; sourceTree = "<group>"; };
+		80E8BCAC2473B93900635E52 /* FpsLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FpsLabel.m; sourceTree = "<group>"; };
+		BC828BC0F79DB848083BF597 /* Pods-webpList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webpList.release.xcconfig"; path = "Target Support Files/Pods-webpList/Pods-webpList.release.xcconfig"; sourceTree = "<group>"; };
+		F3B01622437E23DE165965D4 /* libPods-webpList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webpList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +58,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80034E88246BF29E00A7A5C4 /* webpL.framework in Frameworks */,
+				801BC04B246ACD53002F8158 /* liblibwebp.a in Frameworks */,
+				654B977A918C9FA20B46CD95 /* libPods-webpList.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26CD0F9A9DB840501C82C07F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70998D67F8DEC93B383726DF /* Pods-webpList.debug.xcconfig */,
+				BC828BC0F79DB848083BF597 /* Pods-webpList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		801BBFAC246AA213002F8158 = {
 			isa = PBXGroup;
 			children = (
 				801BBFB7246AA213002F8158 /* webpList */,
 				801BBFB6246AA213002F8158 /* Products */,
+				26CD0F9A9DB840501C82C07F /* Pods */,
+				B084DC28E8105B88F6DDA689 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,13 +103,32 @@
 				801BBFBC246AA213002F8158 /* SceneDelegate.m */,
 				801BBFBE246AA213002F8158 /* ViewController.h */,
 				801BBFBF246AA213002F8158 /* ViewController.m */,
+				803EE916246BC80D009BD8D7 /* demoVC.h */,
+				803EE917246BC80D009BD8D7 /* demoVC.m */,
+				803EE918246BC80D009BD8D7 /* demoVC.xib */,
+				803EE911246BC031009BD8D7 /* gifListVC.h */,
+				803EE912246BC031009BD8D7 /* gifListVC.m */,
+				80034E6A246BEDE400A7A5C4 /* gifImageCollectionViewCell.h */,
+				80034E6B246BEDE400A7A5C4 /* gifImageCollectionViewCell.m */,
+				80E8BCAB2473B93900635E52 /* FpsLabel.h */,
+				80E8BCAC2473B93900635E52 /* FpsLabel.m */,
 				801BBFC1246AA213002F8158 /* Main.storyboard */,
 				801BBFC4246AA216002F8158 /* Assets.xcassets */,
 				801BBFC6246AA216002F8158 /* LaunchScreen.storyboard */,
 				801BBFC9246AA216002F8158 /* Info.plist */,
 				801BBFCA246AA216002F8158 /* main.m */,
+				80034E87246BF29E00A7A5C4 /* webpL.framework */,
 			);
 			path = webpList;
+			sourceTree = "<group>";
+		};
+		B084DC28E8105B88F6DDA689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				801BC04A246ACD53002F8158 /* liblibwebp.a */,
+				F3B01622437E23DE165965D4 /* libPods-webpList.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 801BBFCE246AA216002F8158 /* Build configuration list for PBXNativeTarget "webpList" */;
 			buildPhases = (
+				8A523603774FE863194A5C16 /* [CP] Check Pods Manifest.lock */,
 				801BBFB1246AA213002F8158 /* Sources */,
 				801BBFB2246AA213002F8158 /* Frameworks */,
 				801BBFB3246AA213002F8158 /* Resources */,
@@ -135,11 +191,37 @@
 			files = (
 				801BBFC8246AA216002F8158 /* LaunchScreen.storyboard in Resources */,
 				801BBFC5246AA216002F8158 /* Assets.xcassets in Resources */,
+				803EE91A246BC80D009BD8D7 /* demoVC.xib in Resources */,
 				801BBFC3246AA213002F8158 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A523603774FE863194A5C16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-webpList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		801BBFB1246AA213002F8158 /* Sources */ = {
@@ -150,6 +232,10 @@
 				801BBFBA246AA213002F8158 /* AppDelegate.m in Sources */,
 				801BBFCB246AA216002F8158 /* main.m in Sources */,
 				801BBFBD246AA213002F8158 /* SceneDelegate.m in Sources */,
+				803EE913246BC031009BD8D7 /* gifListVC.m in Sources */,
+				80034E6C246BEDE400A7A5C4 /* gifImageCollectionViewCell.m in Sources */,
+				80E8BCAD2473B93900635E52 /* FpsLabel.m in Sources */,
+				803EE919246BC80D009BD8D7 /* demoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,15 +373,23 @@
 		};
 		801BBFCF246AA216002F8158 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70998D67F8DEC93B383726DF /* Pods-webpList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QNLTY2CV2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/webpList",
+				);
 				INFOPLIST_FILE = webpList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = zxc.webpList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,15 +398,22 @@
 		};
 		801BBFD0246AA216002F8158 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC828BC0F79DB848083BF597 /* Pods-webpList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QNLTY2CV2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/webpList",
+				);
 				INFOPLIST_FILE = webpList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = zxc.webpList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
